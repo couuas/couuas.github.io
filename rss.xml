@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <title>couuas.pp.ua</title>
+    <link>https://couuas.pp.ua</link>
+    <description>Personal portfolio and blog of a creative designer/developer.</description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Dec 2025 06:32:51 GMT</lastBuildDate>
+    <atom:link href="https://couuas.pp.ua/rss.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+        <title><![CDATA[About Wasker Vue]]></title>
+        <link>https://couuas.pp.ua/blog/about-wasker</link>
+        <guid>https://couuas.pp.ua/blog/about-wasker</guid>
+        <pubDate>Thu, 25 Dec 2025 00:00:00 GMT</pubDate>
+        <description><![CDATA[Exploring the evolution of the Wasker ecosystem from static templates to the 3D + AI production version.]]></description>
+        <category>Project</category>
+    </item>
+</channel>
+</rss>
