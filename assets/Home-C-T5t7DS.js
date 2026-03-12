@@ -1,0 +1,1 @@
+import{T as e}from"./index-CS4nNA8l.js";import{c as t,L as o,a}from"./views-common-BJJfRR6-.js";import"./fancyapps-CC8s0SOv.js";import"./gsap-COmk0yTM.js";const r={class:"transition-fade"},d={__name:"Home",setup(s){return(c,i)=>(a(),t("div",r,[o(e)]))}};export{d as default};

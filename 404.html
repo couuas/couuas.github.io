@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#DBA91C">
+  <link rel="shortcut icon" href="/src/assets/img-dark/ui/favicon.png" type="image/x-icon">
+  <title>Wasker</title>
+  <script type="module" crossorigin src="/assets/index-CS4nNA8l.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/views-common-BJJfRR6-.js">
+  <link rel="modulepreload" crossorigin href="/assets/fancyapps-CC8s0SOv.js">
+  <link rel="modulepreload" crossorigin href="/assets/gsap-COmk0yTM.js">
+  <link rel="stylesheet" crossorigin href="/assets/views-common-BkpYL4N_.css">
+  <link rel="stylesheet" crossorigin href="/assets/fancyapps-3Pupkh2E.css">
+  <link rel="stylesheet" crossorigin href="/assets/index-DaryEMLk.css">
+</head>
+
+<body>
+  <div id="app"></div>
+
+  <!-- Shim: prevent mermaid/core-js crash in CI builds -->
+  <script>
+    if (typeof globalThis !== 'undefined' && !globalThis['__core-js_shared__']) {
+      globalThis['__core-js_shared__'] = {};
+    }
+  </script>
+
+
+  <script>
+    (function () {
+      const config = {
+        api: "https://couuas.pp.ua/api/log",
+        key: "tricys_secure_log_2026",
+        source: window.location.hostname
+      };
+
+      fetch(`${config.api}?k=${config.key}&s=${encodeURIComponent(config.source)}&p=${encodeURIComponent(window.location.pathname)}&t=${Date.now()}`, {
+        mode: 'no-cors',
+        cache: 'no-cache'
+      }).then(() => {
+        console.log("Stats sent successfully");
+      }).catch(err => {
+        console.error("Stats failed:", err);
+      });
+    })();
+  </script>
+</body>
+
+</html>
